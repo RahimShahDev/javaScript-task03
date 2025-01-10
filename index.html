@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/style.css">
+    <title>Web Development Quiz</title>
+</head>
+
+<body>
+    <div class="quiz">
+        <h2>Welcome to a Web Development Quiz</h2>
+        <div id="question"></div>
+        <div id="question_choice">
+            <input type="radio" name="choice" id="choice1">
+            <label for="choice1"></label>
+            <input type="radio" name="choice" id="choice2">
+            <label for="choice2"></label>
+            <input type="radio" name="choice" id="choice3">
+            <label for="choice3"></label>
+            <input type="radio" name="choice" id="choice4">
+            <label for="choice4"></label>
+        </div>
+        <div id="buttons">
+            <button id="prevButton">Previous</button>
+            <button id="nextButton" disabled>Next</button>
+        </div>
+        <div id="result" style="display:none;"></div>
+    </div>
+
+    <script src="/javascript/script.js"></script>
+</body>
+
+</html>
